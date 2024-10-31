@@ -1,0 +1,44 @@
+/**
+* The plugin "Iron Man Scroll Up" styles.
+*/
+
+.IR-Scroll-Up {
+	display: block;
+	margin: -125px 0 0;
+	position: fixed;
+	right: 1%;
+	bottom: 1%;
+	z-index:11;
+}
+.IR-Scroll-Up,
+.IR-Scroll-Up div {
+	width: 150px;
+	height: 190px;
+	padding: 0;
+	overflow: hidden;	
+}
+.IR-Scroll-Up div{
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.IR-Scroll-Up .sptite-animate{
+	display: none;
+	opacity: 0;
+	z-index: 1
+}
+.IR-Scroll-Up .scroll-button{
+	display: block;
+	z-index: 2;	
+	cursor: pointer;
+}
+.irsu-up {
+	background: url(sprites/up.png) no-repeat 0 0;
+}
+.irsu-up2 {
+	background: url(sprites/up2.png) no-repeat 0 0;
+}
+.irsu-up3 {
+	background: url(sprites/up3.png) no-repeat 0 0;
+}
